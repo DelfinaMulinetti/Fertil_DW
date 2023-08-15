@@ -1,0 +1,247 @@
+body,html {
+        width: 100% !important;
+        overflow-x: hidden !important;
+    margin: 0%;
+    border: 0%; 
+    background-image: url(./CSS/backgroundblack.jpg);
+     background-size: cover;}
+
+a { color: white; text-decoration: none; font-family: 'Roboto', sans-serif; 
+        display: flex; flex-wrap: wrap; 
+        size: 6vh; justify-content: center;
+align-items: center;}
+
+main {margin: 0%; padding: 0%;}
+
+.menu {
+display: flex;
+flex-direction: row; 
+flex-wrap: wrap;
+width: 100%;
+margin-top: 1%;
+padding: 0%;
+justify-content: center; align-items: center; align-content: center;}
+
+.opcion {flex-grow: 0.2; }
+
+.banner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-radius: 1%;
+        height: 52rem;
+        width: 100%;
+        background-image: url(CSS/studio.png) ;
+        background-size: cover;  
+        margin-top: 1%; 
+        background-position: center; }
+h1 {
+    display: flex;
+    color: darkgoldenrod;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    font-size: 4vh;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Roboto', sans-serif;}
+        
+h2 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 2.5vh;
+    margin-top: 10vh;
+    justify-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;}
+        
+ h3 { 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 2vh;
+    justify-content: center;   
+    font-family: 'Roboto', sans-serif;}
+
+ h4 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: #B8860B;
+    border-radius: 20% ;
+    justify-items: center;
+    justify-content: center;
+    font-size: 3vh; } 
+
+.galeryhorizontal {
+        display: flex;
+        margin-top: 5%;
+        padding: 0%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: transparent;
+        justify-content: center; gap: 3em;}
+
+
+.marcas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1em;
+        padding: 0%;}
+
+.marca { margin-top: 1%;}
+
+.contacto {
+        margin-top: -4%;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 1vh;
+        justify-content: center;
+        flex-direction: column;
+        background-color: transparent;}
+
+.textois {text-align: center;  }
+
+
+
+.iniciarsesión {
+        display: flex;
+        width: 25%;
+        height: 50vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content:  center;
+        align-content: center;
+        border-color: #B8860B;
+        border-radius: 20%;
+        border-style: groove;
+        background-image: url(./CSS/background2.jpg);
+        background-size: cover;
+        background-position: center;}
+.iscontenedor {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 5%;
+        flex-direction: column;
+       align-content: center;}
+.registrarse {
+        display: flex;
+        flex-wrap: wrap;
+        width: 25%;
+        height: 50vh;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        border-color: #B8860B;
+        margin-bottom: 15vh;
+        margin-top: 5%;
+        border-radius: 20%;
+        border-style: groove;
+       background-image: url(./CSS/background2.jpg);
+        background-size: cover;
+        background-position: center; }
+
+.input {border-radius: 20px; border-color: white; margin-top: 1%; padding: 1%; width: 50%;}
+.button {border-radius: 20px; border-color: white; color: #B8860B ;margin-top: 1%; width: 50%; padding: 1%; margin-bottom: 15%;}
+
+
+.boxr { display: flex;
+        flex-wrap: wrap;
+        justify-content: center;}
+
+footer {padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #B8860B; }
+
+@media (max-width: 1440px){  .iniciarsesión {width:50vh; height: 50vh;} .registrarse {width: 50vh; height: 50vh;} }
+@media (max-width: 1024px){
+        .banner {height: 80%;}  
+        .iniciarsesión {width: 45%; height: 50vh; } 
+        .registrarse {width: 45%;height: 50vh; } 
+}
+
+@media (max-width: 768px) {.banner { height: 40%; background-size: 100%; background-position-x: center; background-repeat: no-repeat;} 
+h1{ font-size: 3vh;}
+h2 {font-size: 2vh}
+h3 {font-size: 2vh;}
+h4 {font-size: 2.5vh;}
+a {font-size: 2vh;}
+
+.iniciarsesión {width: 55%; height: 40vh; } 
+.registrarse {width: 55%; height: 40vh;}
+        
+@media (max-width: 500px) {
+        .banner {height: 60%;}
+        .documental {width: 400px;}
+        .iniciarsesión {width: 85%; height: 40vh;}
+        .registrarse {width: 85%;height: 40vh;}}
+     
+@media (max-width: 425px) {
+
+html, body { 
+        width: 100% !important;
+        overflow-x: hidden !important;
+}
+
+.banner {
+        flex-direction: row; 
+        flex-wrap: wrap;
+        margin-top: 0%;
+        height: 27vh;
+        justify-content: center;}
+
+
+img {height: 18vh; padding-left: 0%; padding-right: 0%;}
+h1 {font-size: 2vh;}        
+h2 {font-size: 1vh; text-align: center; margin-top: 5vh; }        
+h3 {font-size: 1vh;}        
+h4 {font-size: 2vh;}         
+a {font-size: 1vh;}
+
+.documental {width: 30vh; }
+.paisaje {width: 30vh; height: 40vh;}
+.ficcion {width: 30vh;}
+       
+.galeria {padding: 0% ; justify-content: center;} 
+.galeryhorizontal{margin-top: 5vh;}
+
+.marca {width: 20vh;
+        display: flex;
+        margin: 0%; padding: 0%;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center; }
+  
+.contacto {margin-top: -20;}
+.textois {width: 100%; }
+
+.iniciarsesión {width: 80%; height: 40vh;} 
+.registrarse {width: 80%; height: 40vh;}
+
+.button {margin-bottom: 0%;}
+
+.insta {width: 3.5vh; height: 4vh; justify-content: center;}
+.youtube { width: 3.5vh; height: 3vh; justify-content: center;} }
+
+
+@media(max-width: 375px) {
+        html, body { 
+                width: 100% !important;
+                overflow-x: hidden !important;
+        }
+        h1 {font-size: 5vw;}
+        h4 {font-size: 1.5vh;}
+        .iniciarsesión {width: 90vw; height: 80vw;}
+
+        .registrarse {width:90vw; height: 80vw;}}
+
+
+        
+
+
+}
