@@ -33,6 +33,7 @@ justify-content: center; align-items: center; align-content: center;}
         width: 100%;
         background-image: url(CSS/studio.png) ;
         background-size: cover;  
+        box-shadow: 10%;
         margin-top: 1%; 
         background-position: center; }
 h1 {
@@ -52,7 +53,7 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 2.5vh;
-    margin-top: 10vh;
+    margin-top: 5vh;
     justify-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;}
@@ -105,13 +106,17 @@ h2 {
         flex-direction: column;
         background-color: transparent;}
 
+
+        .insta {width: 6vh; height: 6vh; justify-content: center;}
+        .youtube { width: 6vh; height: 5vh; justify-content: center;} 
+
 .textois {text-align: center;  }
 
 
 
 .iniciarsesión {
         display: flex;
-        width: 25%;
+        width: 50vh;
         height: 50vh;
         flex-wrap: wrap;
         flex-direction: column;
@@ -132,7 +137,7 @@ h2 {
 .registrarse {
         display: flex;
         flex-wrap: wrap;
-        width: 25%;
+        width: 50vh;
         height: 50vh;
         flex-direction: column;
         justify-content: center;
@@ -158,28 +163,29 @@ footer {padding-top: 10px;
         padding-bottom: 10px;
         background-color: #B8860B; }
 
-@media (max-width: 1440px){  .iniciarsesión {width:50vh; height: 50vh;} .registrarse {width: 50vh; height: 50vh;} }
+@media (max-width: 1440px){  .iniciarsesión {width:60vh; height: 60vh;} .registrarse {width: 60vh; height: 60vh;} }
 @media (max-width: 1024px){
         .banner {height: 80%;}  
-        .iniciarsesión {width: 45%; height: 50vh; } 
-        .registrarse {width: 45%;height: 50vh; } 
+        .iniciarsesión {width: 60vh; height: 60vh; } 
+        .registrarse {width: 60vh;height: 60vh; } 
 }
 
-@media (max-width: 768px) {.banner { height: 40%; background-size: 100%; background-position-x: center; background-repeat: no-repeat;} 
+@media (max-width: 768px) {.banner { height: 60% ; background-repeat: no-repeat; background-position: top; margin-bottom: -5%;} 
+
 h1{ font-size: 3vh;}
-h2 {font-size: 2vh}
+h2 {font-size: 2vh ;}
 h3 {font-size: 2vh;}
 h4 {font-size: 2.5vh;}
 a {font-size: 2vh;}
 
-.iniciarsesión {width: 55%; height: 40vh; } 
-.registrarse {width: 55%; height: 40vh;}
+.iniciarsesión {width: 50vh; height: 50vh; } 
+.registrarse {width: 50vh; height: 50vh;}
         
 @media (max-width: 500px) {
         .banner {height: 60%;}
         .documental {width: 400px;}
-        .iniciarsesión {width: 85%; height: 40vh;}
-        .registrarse {width: 85%;height: 40vh;}}
+        .iniciarsesión {width: 50vh; height: 50vh;}
+        .registrarse {width: 50vh;height: 50vh;}}
      
 @media (max-width: 425px) {
 
@@ -188,20 +194,22 @@ html, body {
         overflow-x: hidden !important;
 }
 
+.menu {margin-top: 5%; margin-bottom: -2%;}
 .banner {
         flex-direction: row; 
         flex-wrap: wrap;
-        margin-top: 0%;
-        height: 27vh;
+        margin-top: 5%;
+        margin-bottom: -5%;
+        height: 35vh;
         justify-content: center;}
 
 
 img {height: 18vh; padding-left: 0%; padding-right: 0%;}
-h1 {font-size: 2vh;}        
-h2 {font-size: 1vh; text-align: center; margin-top: 5vh; }        
-h3 {font-size: 1vh;}        
-h4 {font-size: 2vh;}         
-a {font-size: 1vh;}
+h1 {font-size: 2.5vh;}        
+h2 {font-size: 1.8vh; text-align: center; margin-top: 2vh; }        
+h3 {font-size: 1.8vh;}        
+h4 {font-size: 2.5vh;}         
+a {font-size: 1.5vh;}
 
 .documental {width: 30vh; }
 .paisaje {width: 30vh; height: 40vh;}
@@ -212,7 +220,7 @@ a {font-size: 1vh;}
 
 .marca {width: 20vh;
         display: flex;
-        margin: 0%; padding: 0%;
+        margin: 0%; padding-left: 5%; padding-right: 5%;
         flex-direction: row; 
         justify-content: center;
         align-items: center; }
@@ -220,28 +228,41 @@ a {font-size: 1vh;}
 .contacto {margin-top: -20;}
 .textois {width: 100%; }
 
-.iniciarsesión {width: 80%; height: 40vh;} 
-.registrarse {width: 80%; height: 40vh;}
+.iniciarsesión {width: 43vh; height: 43vh;} 
+.registrarse {width: 43vh; height: 43vh;}
 
 .button {margin-bottom: 0%;}
 
-.insta {width: 3.5vh; height: 4vh; justify-content: center;}
-.youtube { width: 3.5vh; height: 3vh; justify-content: center;} }
+.insta {width: 5vh; height: 5vh; justify-content: center;}
+.youtube { width: 5vh; height: 4vh; justify-content: center;} }
 
 
 @media(max-width: 375px) {
         html, body { 
                 width: 100% !important;
-                overflow-x: hidden !important;
-        }
-        h1 {font-size: 5vw;}
-        h4 {font-size: 1.5vh;}
-        .iniciarsesión {width: 90vw; height: 80vw;}
+                overflow-x: hidden !important;}
+         .banner { margin-top: 5%; height: 32%;}
 
-        .registrarse {width:90vw; height: 80vw;}}
+        .galeryhorizontal { 
+                padding-left: 5%;
+                padding-right: 5%;}
+       
+        h1 {font-size: 2vh;}        
+        h2 {font-size: 1.5vh; text-align: center; margin-top: 2vh; }        
+        h3 {font-size: 1.5vh;}              
+        a {font-size: 1.3vh;}
+        h4 {font-size: 2.3vh;}
+        .iniciarsesión {width: 80vw; height: 80vw;}
+        .registrarse {width:80vw; height: 80vw;}}
 
-
-        
-
+@media(max-width: 320px){
+.banner {height: 25%; margin-bottom: -5%;}
+h1 {font-size: 2vh; margin-top: 10%;}        
+h2 {font-size: 1.6vh; text-align: center; margin-top: 2vh; }        
+h3 {font-size: 1.6vh; text-align: center;}
+h4 {font-size: 2.3vh;}
+.boxr {margin-bottom: -10vh;}
+}
 
 }
+
